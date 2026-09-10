@@ -1,5 +1,5 @@
 The analysis reads four supplementary files published by other groups. We
-haven't included them here — download them from the publishers and drop them
+haven't included them here, download them from the publishers and drop them
 into this folder, using the filenames below so the notebook finds them.
 
 **`hobson_elife-70921-fig2-data5-v2.xlsx`**
