@@ -39,7 +39,7 @@ See data/README.md for the four required input files and their DOIs
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook proteomics_reanalysis.ipynb
+jupyter notebook fujise-proteomics_reanalysis.ipynb
 ```
 
 By default the notebook reads from `./data`. To point it elsewhere:
