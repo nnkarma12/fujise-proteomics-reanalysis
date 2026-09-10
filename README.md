@@ -2,7 +2,7 @@
 
 Code accompanying Fujise et al., *Journal of Cell Biology*.
 
-This repository reproduces the proteomics panels of Figure 5, which ask whether
+This repository reproduces the proteomics panels of Figure 6, which ask whether
 proteins identified in the synaptic vesicle reconstitution system are also
 found on dopamine vesicles in native tissue. A fixed panel of vesicle proteins
 is extracted from three published proteomic datasets and plotted as heatmaps.
