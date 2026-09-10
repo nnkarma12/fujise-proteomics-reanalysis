@@ -25,7 +25,7 @@ and plots them.
 
 ## Source data
 
-`source\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_data\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_figure5.csv` contains every value plotted in the figure, one row
+`source_data\figure5.csv` contains every value plotted in the figure, one row
 per protein per comparison, with the dataset and the statistic type recorded
 explicitly.
 
@@ -39,23 +39,23 @@ See data/README.md for the four required input files and their DOIs
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook proteomics\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_reanalysis.ipynb
+jupyter notebook proteomics_reanalysis.ipynb
 ```
 
 By default the notebook reads from `./data`. To point it elsewhere:
 
 ```bash
-DATA\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_DIR=/path/to/files jupyter notebook proteomics\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_reanalysis.ipynb
+DATA_DIR=/path/to/files jupyter notebook proteomics_reanalysis.ipynb
 ```
 
 ## Outputs
 
 Written to `figures/`:
 
-* `panel\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_a\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_hobson.pdf` / `.png`
-* `panel\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_b\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_pagetblanc.pdf` / `.png`
-* `panel\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_c\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_asmerian.pdf` / `.png`
-* `source\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_data\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_figure5.csv`
+* `panel_a_hobson.pdf` / `.png`
+* `panel_b_pagetblanc.pdf` / `.png`
+* `panel_c_asmerian.pdf` / `.png`
+* `source_data_figure5.csv`
 
 ## 
 
