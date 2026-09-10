@@ -1,0 +1,70 @@
+# Reanalysis of published dopaminergic vesicle proteomes
+
+Code accompanying Fujise et al., *Journal of Cell Biology*.
+
+This repository reproduces the proteomics panels of Figure 5, which ask whether
+proteins identified in the synaptic vesicle reconstitution system are also
+found on dopamine vesicles in native tissue. A fixed panel of vesicle proteins
+is extracted from three published proteomic datasets and plotted as heatmaps.
+
+No statistical tests are recomputed here. Effect sizes and significance values
+are taken as published by the original authors; this code only selects, aligns
+and plots them.
+
+
+
+## Panels
+
+|Panel|Dataset|Comparison|Statistic as published|
+|-|-|-|-|
+|a|Hobson et al. 2022, *eLife*|APEX2⁺ striatum vs bulk striatum|log2FC, BH-adjusted q|
+|b|Paget-Blanc et al. 2022, *Nat Commun*|DA-FASS synaptosomes vs bulk synaptosomes|abundance ratio, BH-adjusted p|
+|c|Asmerian et al. 2026, *Sci Adv*|VGLUT2⁺ vs VMAT2⁺ vesicles (striatal LP2 and P4)|mean log2 ratio, uncorrected two-tailed p|
+
+
+
+## Source data
+
+`source\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_data\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_figure5.csv` contains every value plotted in the figure, one row
+per protein per comparison, with the dataset and the statistic type recorded
+explicitly.
+
+
+
+See data/README.md for the four required input files and their DOIs
+
+
+
+## Running
+
+```bash
+pip install -r requirements.txt
+jupyter notebook proteomics\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_reanalysis.ipynb
+```
+
+By default the notebook reads from `./data`. To point it elsewhere:
+
+```bash
+DATA\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_DIR=/path/to/files jupyter notebook proteomics\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_reanalysis.ipynb
+```
+
+## Outputs
+
+Written to `figures/`:
+
+* `panel\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_a\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_hobson.pdf` / `.png`
+* `panel\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_b\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_pagetblanc.pdf` / `.png`
+* `panel\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_c\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_asmerian.pdf` / `.png`
+* `source\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_data\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_figure5.csv`
+
+## 
+
+## Citation
+
+If you use this code, please cite the manuscript and the three original
+datasets.
+
+
+
+## 
+

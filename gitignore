@@ -1,0 +1,12 @@
+# Input supplementary files are not redistributed (see README)
+data/*.xlsx
+data/*.xls
+
+# Generated outputs — keep source_data_figure5.csv, ignore the rest
+figures/*.pdf
+figures/*.png
+
+# Notebook cruft
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

@@ -1,0 +1,57 @@
+dataset,comparison,protein,symbol,effect,pvalue,statistic
+Hobson 2022,APEX2+ striatum / bulk striatum,Slc10a4,SLC10A4,4.37816797659774,2.01905494414972e-06,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,Synaptophysin,SYP,4.03085120440222,3.04862899816354e-06,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,VMAT2,SLC18A2,4.77994138718585,9.11520837036641e-06,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,SV2C,SV2C,4.26269219363247,9.20745834778448e-06,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,DAT,SLC6A3,2.93636956171756,1.78066833379133e-05,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,Syngr3,SYNGR3,3.62081023953174,2.75115296255697e-05,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,TH,TH,3.45906305732996,3.02336987439872e-05,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,Dnajc6,DNAJC6,2.35764317717971,9.2038885848517e-05,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,DDC,DDC,3.1163081934134,9.78874192207611e-05,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,Syngr1,SYNGR1,1.32918625048363,0.000264507892566036,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,Synj1,SYNJ1,1.95763258470801,0.000607374582599888,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,SV2A,SV2A,0.88130541059822,0.000818720482941988,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,aSyn,SNCA,3.58964542007075,0.000986156817616018,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,SV2B,SV2B,1.70255752745679,0.00125806988421469,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,Snap25,SNAP25,-0.583054896777568,0.00358041527526573,BH-adjusted q
+Hobson 2022,APEX2+ striatum / bulk striatum,VGLUT2,SLC17A6,0.0877891959742231,0.768453602351191,BH-adjusted q
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,Snap25,SNAP25,0.25096157353321874,0.751,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,Synj1,SYNJ1,0.22650852980867975,0.809,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,SV2A,SV2A,0.014355292977070054,1.0,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,Dnajc6,DNAJC6,0.4005379295837288,0.406,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,DDC,DDC,2.0036022366801953,1.6e-16,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,TH,TH,2.176322772640463,1.6e-16,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,SV2B,SV2B,-0.058893689053568565,0.976,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,aSyn,SNCA,-0.13606154957602837,0.909,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,DAT,SLC6A3,1.411426245726465,8.05e-09,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,VGLUT2,SLC17A6,0.11103131238874395,0.959,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,Synaptophysin,SYP,0.014355292977070054,1.0,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,SV2C,SV2C,1.1634987322828796,1.17e-05,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,Syngr3,SYNGR3,0.41142624572646497,0.4,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,Slc10a4,SLC10A4,1.304511041809953,4.67e-08,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,VMAT2,SLC18A2,1.7865963618908067,1.6e-16,BH-adjusted p
+Paget-Blanc 2022,DA-FASS / bulk synaptosomes,Syngr1,SYNGR1,0.13750352374993502,0.934,BH-adjusted p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, LP2",SV2B,SV2B,1.526275528359295,5.850983853683213e-08,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, LP2",VGLUT2,SLC17A6,1.4813855832012146,0.027081829659396626,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, LP2",Syngr3,SYNGR3,1.2962416805062544,0.048807424531269315,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, LP2",Synaptophysin,SYP,1.23383125262371,0.002134112225395579,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, LP2",Syngr1,SYNGR1,0.935609684175812,0.24242623324162477,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, LP2",SV2A,SV2A,0.33509132026260136,0.5919672565707754,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, LP2",Synj1,SYNJ1,-0.36946253146510055,,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, LP2",SV2C,SV2C,-0.4842714996573534,0.2697600960682883,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, LP2",Snap25,SNAP25,-0.5927869550421434,0.4515168161095755,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, LP2",Dnajc6,DNAJC6,-1.2119581494510752,,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, LP2",Slc10a4,SLC10A4,-1.6004988761371208,0.023691655965895043,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, LP2",VMAT2,SLC18A2,-1.6735136172355733,0.018367034046909054,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, P4",Syngr1,SYNGR1,1.0310867006374134,0.14180239995020583,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, P4",Synaptophysin,SYP,0.9639711523807545,0.0010928554845689952,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, P4",VGLUT2,SLC17A6,0.8989405917203092,0.001389483460203342,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, P4",SV2B,SV2B,0.5299037796007612,0.025456336384280832,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, P4",Syngr3,SYNGR3,0.5007753217076901,0.47272338810064146,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, P4",SV2A,SV2A,0.3995044103629519,0.27403676470726535,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, P4",Snap25,SNAP25,-0.2834288348437141,0.762243025148905,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, P4",SV2C,SV2C,-0.4566901763761548,0.08227449525463265,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, P4",Synj1,SYNJ1,-0.6012132030572632,,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, P4",Dnajc6,DNAJC6,-1.311265768191268,,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, P4",Slc10a4,SLC10A4,-1.6127251729444838,0.04432570088965922,uncorrected two-tailed p
+Asmerian 2026,"VGLUT2+ / VMAT2+ vesicles, P4",VMAT2,SLC18A2,-1.943550438559426,0.058170732612151506,uncorrected two-tailed p
